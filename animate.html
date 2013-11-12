@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
+</script>
+<script> 
+$(document).ready(function(){
+  $("div").hover(function(){
+    $("div").animate({
+      left:'250px',
+      opacity:'0.5',
+      height:'150px',
+      width:'150px'
+    });
+    $("div").animate({
+      left:'1px',
+      opacity:'1',
+      height:'100px',
+      width:'100px'
+    });
+  });
+});
+</script> 
+</head>
+ 
+<body>
+<button>Start Animation</button>
+
+<img src="./Capture.jpg"/>
+</body>
+</html>
