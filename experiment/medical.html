@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="medical.css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="medical.js"></script>
+<title>
+	medical dognostic
+</title>
+</head>
+<body >
+<div id="masthead_container">
+        
+        <form action="./" method="post">
+            <textarea id="textarea"></textarea>
+            <a href="#" class="blueButton" id="download">Download</a>
+        </form>
+</div> <!-- masthead_container -->
+<div id="main_container">
+  <div id="main_header_container">
+    <h1 id="data_header">
+    <button onclick="findCommon()">click</button>
+    <button onclick="addData()">add</button>
+    <button onclick="replaceData()">replace</button>
+    <button onclick="produceJson()">produce</button>
+    </h1>
+    <h2 id="data_paragraph">
+    </h2>
+  </div> <!-- main_header_container -->
+  <div id="main_content_container">
+  	<div id="disease_container">
+  	</div>
+  	<div id="display_container">
+  	</div>
+  	<div id="medicine_container">
+  	</div>
+  </div>
+        <script src="assets/js/jquery.generateFile.js"></script>
+        <script src="assets/js/script.js"></script>
+</body>
+</html>
